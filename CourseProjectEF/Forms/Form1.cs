@@ -23,8 +23,8 @@ namespace CourseProjectEF
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string userName = txtUsername.Text;
-            string password = txtPassword.Text;
+            string userName = "melih.kamar";
+            string password = "123456";
             bool isLogin = _userService.Login(userName, password);
             if (isLogin)
             {
